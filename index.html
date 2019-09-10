@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>GrainPlayer</title>
+
+	<script src="sketch.js"></script>
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="libraries/p5.play.js"></script>
+	<script src="libraries/Tone.js"></script>
+	<script src="libraries/dat.gui.js"></script>
+	<script src="libraries/p5.collide2d.js"></script>
+	<script src="libraries/p5.experience.js"></script>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+
+	<script>
+		window.addEventListener("keydown", function(e) {
+			if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+				e.preventDefault();
+			}
+		}, false);
+	</script>
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: hidden;
+			font-family: monospace;
+			font-size: 12;
+			color: (255);
+		}
+		canvas {
+			margin:auto;
+		}
+		/* #dropzone{
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 315px;
+			padding: 0px;
+			border: 3px #295471 dashed;
+			text-align: center;
+		} */
+
+	</style>
+</head>
+<body>
+<!-- <p id = 'dropzone'>Drag + drop your sample here</p> -->
+</body>
+</html>
